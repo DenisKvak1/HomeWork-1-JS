@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container mt-5">
+
+        <h1 class='mb-3'>USA Federal Income Tax 2024 for Single Filers | Tester</h1>
+
+        <div class="mb-3 row">
+            <label for="staticEmail" class="col-sm-2 col-form-label">Your Income (in USD)</label>
+            <div class="col-sm-10">
+              <input type="number" oninput='render()'  class="form-control" id="incomeSum" value="" min='0' max='9999999999999999'>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-2 col-form-label">Your FIT Sum</label>
+            <div class="col-sm-10">
+              <h4>$ <span  id='taxSum'>0.00</span></h4>
+            </div>
+          </div>
+
+    </div>
+    
+    <script src="assets/js/app.js"></script>
+
+</body>
+</html>
